@@ -1,6 +1,7 @@
 class Compte {
 	int solde;
 	String titulaire;
+	int age;
 	
 	void afficherSolde() {
 		System.out.println("solde : " + this.solde);
